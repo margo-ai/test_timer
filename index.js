@@ -32,7 +32,6 @@ inputEl.addEventListener("input", () => {
 	// Очистите input так, чтобы в значении
 	// оставались только числа
 	inputEl.value = inputEl.value.replace(/[^0-9]/g, "");
-	console.log(inputEl.value);
 });
 
 buttonEl.addEventListener("click", () => {
